@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "PathCreator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/PathCreator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PathCreator.dll": {}
+        }
+      },
+      "PathCreatorEditor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "PathCreator": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PathCreatorEditor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PathCreatorEditor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PathCreator/1.0.0": {
+      "type": "project",
+      "path": "PathCreator.csproj",
+      "msbuildProject": "PathCreator.csproj"
+    },
+    "PathCreatorEditor/1.0.0": {
+      "type": "project",
+      "path": "PathCreatorEditor.csproj",
+      "msbuildProject": "PathCreatorEditor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "PathCreator >= 1.0.0",
+      "PathCreatorEditor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vligh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Temp Files\\RaceAi\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "E:\\Temp Files\\RaceAi\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\vligh\\.nuget\\packages\\",
+      "outputPath": "E:\\Temp Files\\RaceAi\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vligh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\vligh\\.nuget\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\Temp Files\\RaceAi\\PathCreator.csproj": {
+              "projectPath": "E:\\Temp Files\\RaceAi\\PathCreator.csproj"
+            },
+            "E:\\Temp Files\\RaceAi\\PathCreatorEditor.csproj": {
+              "projectPath": "E:\\Temp Files\\RaceAi\\PathCreatorEditor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
